@@ -1,0 +1,40 @@
+# Node
+node_modules/
+.npm/
+.env
+.env.local
+.env.*.local
+npm-debug.log*
+
+# Vercel
+.vercel/
+
+# PHP / local runtime and secrets
+php-version/.env
+php-version/.env.*
+!php-version/.env.example
+php-version/*.log
+php-version/data/
+php-version/test_*.php
+php-version/debug_body.php
+php-version/payload.json
+php-version/php-server.log
+
+# PHP dependencies and local Composer installer files
+php-version/vendor/
+php-version/composer
+php-version/composer-setup.php
+php-version/.phpunit.result.cache
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build / temp
+coverage/
+dist/
+build/
+tmp/
+*.log
